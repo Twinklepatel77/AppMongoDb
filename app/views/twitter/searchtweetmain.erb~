@@ -1,0 +1,7 @@
+<% form_tag :controller=> :twitter, :action=> :search_tweet do %>
+    <%= text_field_tag :search_string, params[:search_string] %>
+<% end %>
+
+<%= search_tweet %>
+
+

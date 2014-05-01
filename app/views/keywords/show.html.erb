@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @keyword.title %>
+</p>
+
+<p>
+  <b>Place:</b>
+  <%= @keyword.place %>
+</p>
+
+<p>
+  <b>Profession:</b>
+  <%= @keyword.profession %>
+</p>
+
+
+<%= link_to 'Edit', edit_keyword_path(@keyword) %> |
+<%= link_to 'Back', keywords_path %>
